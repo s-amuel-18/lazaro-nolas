@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laser Airlines</title>
+    <meta name="description" content="">
+    <meta name="author" content="Laser Airlines">
+    <meta name="keyword" content="Laser, Airlines, aerolinea, avion, viajes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="facebook-domain-verify" content="lx4uarfvevbrpkxj95p237gllw61g2">
+
+
+    <!-- libreria de iconos -->
+    <link rel="stylesheet" href="./assets/css/font-awesome/font-awesome.min.css">
+
+    <!-- libreria animaciones -->
+    <link href="./assets/css/animate/animate.css" rel="stylesheet" media="screen">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    
+    <!-- estilos de input fecha -->
+    <link rel="stylesheet" href="./plugins/datepiker/css/datepicker.css" />
+
+    <!-- estilos principales -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- contenido aqui -->
+    <section class="bg-secondary bg-image" style="background-image: url(./assets/imgs/banner-1.png);">
+
+        <div class="pt-5 pr-5 position-fixed top-right z-index-90">
+            <button class="btn btn-info " type="button">Únete como freelance (aquí)</button>
+        </div>
+        
+        <div class="" >
+            <div class="row no-gutters" >
+                <div class="col-lg-3 col-md-6">
+                    <div class="p-5 bg-light" style="min-height: 100vh;">
+                        <div class="" >
+                            <div class="text-secondary text-uppercase">
+                                <p class="font-weight-light mb-2">Lorem, ipsum dolor.</p>
+                                <p class="font-weight-light mb-2 h4">Lorem</p>
+    
+                                <p class=" h3 font-weight-bold">caracas - miami - caracas</p>
+                                
+                                <h1 class="h2 font-weight-light mb-3">Lorem ipsum dolor sit.</h1>
+                            </div>
+                            <form action="">
+                                <!-- botones header -->
+                                <div class="row no-gutters mb-3">
+                                    <div class="col-12 px-0">
+                                        <button class="btn btn-secondary btn-sm ">Solo Ida</button>
+                                        <button class="btn btn-info btn-sm ">Ida Y Vuelta</button>
+                                    </div>
+                                    <!-- <div class="col-6">
+                                    </div> -->
+                                </div>
+    
+    
+    
+    
+    
+    
+                                <!-- campo de origen -->
+                                <div class="form-group">
+                                    <label for="origen">Origen *</label>
+                                    <select id="origen" class="form-control-sm form-control" name="origen">
+                                        <option value="">Origen</option>
+                                        <option value="caracas">Caracas</option>
+                                        <option value="miami">Miami</option>
+                                    </select>
+                                    <!-- <input id="origen" class="form-control-sm form-control" type="text" name="origen"> -->
+                                </div>
+    
+                                <!-- destino -->
+                                <div class="form-group">
+                                    <label for="destino">Destino *</label>
+                                    <select id="destino" class="form-control-sm form-control" name="origen">
+                                        <option value="Origen">Destino</option>
+                                        <option value="miami">Miami</option>
+                                        <option value="caracas">Caracas</option>
+    
+                                    </select>
+                                    <!-- <input id="origen" class="form-control-sm form-control" type="text" name="origen"> -->
+                                </div>
+    
+                                <!-- <div class="form-group">
+                                    <label for="destino">Destino *</label>
+                                    <input id="destino" class="form-control form-control-sm" type="text" name="destino">
+                                </div> -->
+    
+                                <div class="row no-gutters mb-3">
+    
+                                    <!-- Fecha Partida -->
+                                    <div class="col-6 px-1">
+                                        <label for="partida">Fecha partida</label>
+                                        <div class="input-group date" data-provide="datepicker">
+                                            <input id="partida" type="text" class="datepiker form-control form-control-sm">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-th"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <!-- Fecha Vuelta -->
+                                    <div class="col-6 px-1">
+                                        <label for="vuelta">Fecha Vuelta</label>
+                                        <div class="input-group date" data-provide="datepicker">
+    
+                                            <input id="vuelta" type="text" class="datepiker form-control form-control-sm">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-th"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Cantidad de Pasajeros -->
+                                <div class="form-group">
+                                    <label for="pasajeros">Cantidad de Pasajeros *</label>
+                                    <input id="pasajeros" type="number" name="pasajeros" class="form-control form-control-sm" min="1" max="9" value="1">
+                                </div>
+    
+    
+                                <button class="btn btn-info btn-sm" type="submit">BUSCAR VUELOS</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contenido aqui -->
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="./assets/js/jquery-1.10.2.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- libreria para input fecha -->
+    <script src="./plugins/datepiker/js/bootstrap-datepicker.js"></script>
+
+    <script>
+        $('.datepiker').datepicker()
+    </script>
+</body>
+
+</html>
